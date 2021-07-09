@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue.js | Deneme</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+</head>
+<body>
+    <div id="app">
+        <h3>{{ title }}</h3>
+        <button>{{ buttonTitle }}</button>
+        <p>{{paragraph}}</p>
+        <a v-bind:href="link">Link</a>
+    </div>
+    
+    <script>
+        new Vue({
+            el: "#app",
+            data :{
+                title : "test başlık",
+                buttonTitle : "Tıkla Gelsin",
+                paragraph : "Deneme yazı biçimi",
+                link : "http://www.google.com"
+            }
+        });
+
+    </script>
+</body>
+</html>

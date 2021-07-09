@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class | Style</title>
+    <script src="https://unpkg.com/vue@next"></script>
+    <style>
+        .box{
+            background-color: #ccc;
+            width: 100px;
+            height: 100px;
+        }
+        .red{
+            background-color: #f00 !important;
+        }
+        .green{
+            background-color: green !important;
+        }
+        .blue{
+            background-color: blue !important;
+        }
+        .border{
+            border: 2px dashed #ddd !important;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        {{bgClass}}
+        <button @click="borderClass = !borderClass">Border</button>
+        <button @click="bgClass = 'red' ">Red</button>
+        <button @click="bgClass = 'green' ">Green</button>
+        <button @click="bgClass = 'blue' ">Blue</button>
+        <!-- <div class="box" :class="boxClasses"></div> -->
+        <!-- <input type="text" v-model="counter" /> -->
+        <!-- <div class="box" :class="{ border : borderClass, red : redClass, green : greenClass, blue : blueClass }"></div> -->
+        <br />
+        <br />
+        <div class="box" :class="boxClasses"></div>
+   </div>
+   <script src="app.js"></script>
+</body>
+</html>
