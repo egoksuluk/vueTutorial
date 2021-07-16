@@ -19,9 +19,7 @@ export default ({
     },
     data() {
         return{
-            courseName : null, 
             newCourseItem : null,
-            courseList : [{ title : "Vue", completed : false, id : 1 }],
         };
     },
     methods : {
