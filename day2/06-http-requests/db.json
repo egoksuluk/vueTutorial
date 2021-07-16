@@ -1,0 +1,12 @@
+{
+  "customers": [
+    {
+      "clientName": "de",
+      "phone": "ne",
+      "email": "me",
+      "clientType": "supplier",
+      "description": "dwa",
+      "id": 1
+    }
+  ]
+}
