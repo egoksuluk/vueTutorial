@@ -1,0 +1,20 @@
+{
+  "customers": [
+    {
+      "clientName": "deneme",
+        "phone": "deneme",
+        "email": "deneme",
+        "clientType": "both",
+        "description": "deneme",
+         "id": 1
+    },
+    {
+      "clientName": "Emrah Göksülük",
+        "phone": "05554855215",
+        "email": "eg@sun.com.tr",
+        "clientType": "both",
+        "description": "deneme kaydı",
+        "id": 2
+    }
+  ]
+}

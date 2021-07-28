@@ -1,0 +1,17 @@
+<template>
+  <div>
+      <pre>{{$store}}</pre>
+  </div>
+</template>
+<script>
+export default {
+  mounted() {
+    setTimeout(() => {
+      this.$store.commit("setProduct");
+    }, 1000);
+    setTimeout(() => {
+      this.$store.commit("product/setProduct");
+    }, 2000);
+  },
+}
+</script>
