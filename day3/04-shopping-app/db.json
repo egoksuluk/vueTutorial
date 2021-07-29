@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "productName": "deneme3",
+      "price": "3",
+      "productCategory": "teknoloji",
+      "descriptionArea": "deneme3",
+      "id": 3
+    },
+    {
+      "productName": "deneme3",
+      "price": "5",
+      "productCategory": "elektronik",
+      "descriptionArea": "deneme523",
+      "id": 4
+    },
+    {
+      "productName": "Kalıplı Balık Tavası",
+      "price": "100,45",
+      "productCategory": "teknoloji",
+      "descriptionArea": "Balıkları pişirmişem ",
+      "id": 5
+    }
+  ]
+}
